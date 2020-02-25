@@ -17,6 +17,17 @@
    
 */
 
+/*
+    Table of contents - to do list
+    1.
+        a. implement new system call - date()
+        b. implement date command
+    2. CTRL + P control sequence
+    3. UID, GID, PPID
+    4. ps command
+    5. file system protection
+*/
+
 //Alex Correia
 /*
   Contact info:
