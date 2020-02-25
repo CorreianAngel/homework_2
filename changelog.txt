@@ -1,0 +1,60 @@
+/*
+    Main source of all changes made to the program
+  Template as follows:
+    /*
+      Name - ,
+      File source - ,
+      Date - ,
+      Line index modified - ,
+      //-------------------------------------------------------------------//
+      Short desc. of code details or changes - 
+    */
+    
+    Please add this template to your namespace for each added code along with 
+   the desc. where the code is located in the file.
+    Also please add any contact info you are willing to share, and check it
+   as often as possible in order to ensure quick completion of the assignment
+   
+*/
+
+//Alex Correia
+/*
+  Contact info:
+  email: 006009584@coyote.csusb.edu
+  Add changes here:
+*/
+
+//Patrick Swick
+/*
+  Contact info:
+  email: 003875273@coyote.csusb.edu
+  Add changes here:
+*/
+
+//Hugo 
+/*
+  Contact info:
+  email:
+  Add changes here:
+*/
+
+//Roman 
+/*
+  Contact info:
+  email:
+  Add changes here:
+*/
+
+//Narek
+/*
+  Contact info:
+  email:
+  Add changes here:
+*/
+
+//
+/*
+  Contact info:
+  email:
+  Add changes here:
+*/
