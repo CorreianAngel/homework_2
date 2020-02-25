@@ -22,6 +22,7 @@
   Contact info:
   email: 006009584@coyote.csusb.edu
   Add changes here:
+  I made an edit to test commit.
 */
 
 //Patrick Swick
