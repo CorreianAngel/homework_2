@@ -45,8 +45,8 @@
 
 //Hugo Romero
 /*
-  Contact info:
-  email:
+  Contact info:Smoke signals
+  email:006420449@coyote.csusb.edu
   Add changes here:
 */
 
