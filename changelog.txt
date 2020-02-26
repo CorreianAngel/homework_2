@@ -19,7 +19,7 @@
 
 /*
     Table of contents - to do list
-    1.
+    1. date()
         a. implement new system call - date()
         b. implement date command
     2. CTRL + P control sequence
