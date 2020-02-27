@@ -19,14 +19,14 @@
 */
 
 /*
-    Table of contents - to do list
-    1. date()           Alex Correia
+    Table of contents - to do list                  //Coders Involved
+    1. date()                                       //Alex Correia
         a. implement new system call - date()
         b. implement date command
-    2. CTRL + P control sequence
-    3. UID, GID, PPID
-    4. ps command
-    5. file system protection
+    2. CTRL + P control sequence                    //Roman
+    3. UID, GID, PPID                               //Hugo
+    4. ps command                                   //Patrick
+    5. file system protection                       //Narek
 */
 /*
     Problem Section - Add any problems you want to ask other members
@@ -76,7 +76,7 @@
   Add changes here:
 */
 
-//test
+//
 /*
   Contact info:
   email:
