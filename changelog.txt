@@ -3,11 +3,12 @@
   Template as follows:
     /*
       Name - ,
-      File source - ,
+      File source(s) - ,
       Date - ,
-      Line index modified - ,
+      Line index(es) modified - ,
       //-------------------------------------------------------------------//
       Short desc. of code details or changes - 
+      //(comment) - line index(es)
     */
     
     Please add this template to your namespace for each added code along with 
@@ -26,6 +27,17 @@
     3. UID, GID, PPID
     4. ps command
     5. file system protection
+*/
+/*
+    Problem Section - Add any problems you want to ask other members
+                      for help on here
+    /*
+        Table of Contents Number -
+        File source(s) 
+        Line index(es) -
+        //-------------------------------------------------------------------//
+        Short desc of problem/ what needs to be done -
+    */
 */
 
 //Alex Correia
@@ -50,17 +62,17 @@
   Add changes here:
 */
 
-//Roman 
+//Roman Rodriguez
 /*
   Contact info:
-  email:
+  email: 005583431@coyote.csusb.edu
   Add changes here:
 */
 
-//Narek
+//Narek Hovhannesyan
 /*
-  Contact info:
-  email:
+  Contact info: 818 631 7613
+  email: 005560850@coyote.csusb.edu
   Add changes here:
 */
 
