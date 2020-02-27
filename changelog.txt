@@ -45,7 +45,13 @@
   Contact info:
   email: 006009584@coyote.csusb.edu
   Add changes here:
-  I made an edit to test commit.
+  File Source's: syscall.h, usys.S.
+  Date: 2-27-20
+  Line index(es) modified syscall.h - line 26, usys.S - line 35.
+  Added #define SYS_date in syscall.h, specifiing the date command as a system call and call number 25.
+  Added SYSCALL(date) in usys.S to define the system call of the date command.
+  
+  
 */
 
 //Patrick Swick
