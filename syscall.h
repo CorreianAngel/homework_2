@@ -23,3 +23,4 @@
 #define SYS_cps    22
 #define SYS_nps    23
 #define SYS_chpr   24
+#define SYS_date   25   //System call date part a (Alex Correia)
