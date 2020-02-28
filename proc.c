@@ -113,6 +113,7 @@ found:
   memset(p->context, 0, sizeof *p->context);
   p->context->eip = (uint)forkret;
 
+  uint ticks; //initialized before return so we can keep track of when it was created
   return p;
 }
 
