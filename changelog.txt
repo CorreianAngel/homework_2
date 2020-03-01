@@ -21,8 +21,8 @@
 /*
     Table of contents - to do list                  //Coders Involved
     1. date()                                       //Alex Correia
-        a. implement new system call - date()
-        b. implement date command
+        a. implement new system call - date()       //Eric Diaz
+        b. implement date command                   //Eric Diaz
     2. CTRL + P control sequence                    //Roman
     3. UID, GID, PPID                               //Hugo
     4. ps command                                   //Patrick
@@ -82,9 +82,9 @@
   Add changes here:
 */
 
-//
+//Eric Diaz
 /*
-  Contact info:
-  email:
+  Contact info: 909 645 6949
+  email: 005333857@coyote.csusb.edu
   Add changes here:
 */
