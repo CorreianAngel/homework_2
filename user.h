@@ -26,6 +26,7 @@ int uptime(void);
 int cps(void);
 int nps(void);
 int chpr(int,int);
+int date(struct rtcdate*);  //Alex Correia part c prototype system call calling date() system call.
 
 // ulib.c
 int stat(char*, struct stat*);
