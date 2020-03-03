@@ -71,6 +71,7 @@
   Add changes here:
     
    Added group id as (gid)and user id as (uid), both unsigned ints in "proc.h" right under (int pid) above (proc *parent).
+   lines: 44-45
     
    ![proc.h](https://github.com/CorreianAngel/homework_2/blob/master/images/proc.h_changes.png)
     
@@ -78,12 +79,17 @@
    
    ![users.h](https://github.com/CorreianAngel/homework_2/blob/master/images/users.h_changes.png)
    
-   Added system calls: SYS_getuid, SYS_getgid, SYS_getppid to "syscall.h"
+   Added system calls: SYS_getuid, SYS_getgid, SYS_getppid to "syscall.h" lines: 26-28
    
    
    
    ![syscall.h](https://github.com/CorreianAngel/homework_2/blob/master/images/syscall_h.png)
 
+
+   Added syscalls to defs.h lines:126-130
+   
+   
+   ![defs.h](https://github.com/CorreianAngel/homework_2/blob/master/images/defs_h.png)
 
 //Roman Rodriguez
 /*
