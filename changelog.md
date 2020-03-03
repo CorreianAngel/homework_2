@@ -70,16 +70,16 @@
   email:006420449@coyote.csusb.edu
   Add changes here:
     
-    Added group id as (gid)and user id as (uid), both unsigned ints in "proc.h" right under (int pid) above (proc *parent).
+   Added group id as (gid)and user id as (uid), both unsigned ints in "proc.h" right under (int pid) above (proc *parent).
     
    ![proc.h](https://github.com/CorreianAngel/homework_2/blob/master/images/proc.h_changes.png)
     
-    Added unsigned ints ["getuid", "getgid", "getppid"] and ints ["setuid", "setgid"] ins "users.h" lines: 23-27.
+   Added unsigned ints ["getuid", "getgid", "getppid"] and ints ["setuid", "setgid"] ins "users.h" lines: 23-27.
    
    ![users.h](https://github.com/CorreianAngel/homework_2/blob/master/images/users.h_changes.png)
    
    Added system calls: SYS_getuid, SYS_getgid, SYS_getppid to "syscall.h"
-   
+   ![syscall.h](https://github.com/CorreianAngel/homework_2/blob/master/images/syscall_h.png)
 
 
 //Roman Rodriguez
