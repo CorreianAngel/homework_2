@@ -69,7 +69,10 @@
   Contact info:Smoke signals
   email:006420449@coyote.csusb.edu
   Add changes here:
+    
     Added group id as (gid)and user id as (uid), both unsigned ints in "proc.h" right under (int pid) above (proc *parent).
+    
+    Added unsigned ints ["getuid", "getgid", "getppid"] and ints ["setuid", "setgid"] ins "users.h" lines: 23-27.
 */
 
 //Roman Rodriguez
