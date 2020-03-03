@@ -90,6 +90,12 @@
    
    
    ![defs.h](https://github.com/CorreianAngel/homework_2/blob/master/images/defs_h.png)
+   
+   
+   Added (uid) and (gid) to "fork()" in "proc.c" lines:203-204
+   
+   
+   ![fork_proc.c](https://github.com/CorreianAngel/homework_2/blob/master/images/fork_proc_c.png)
 
 //Roman Rodriguez
 /*
