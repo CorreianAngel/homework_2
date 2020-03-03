@@ -79,6 +79,9 @@
    ![users.h](https://github.com/CorreianAngel/homework_2/blob/master/images/users.h_changes.png)
    
    Added system calls: SYS_getuid, SYS_getgid, SYS_getppid to "syscall.h"
+   
+   
+   
    ![syscall.h](https://github.com/CorreianAngel/homework_2/blob/master/images/syscall_h.png)
 
 
