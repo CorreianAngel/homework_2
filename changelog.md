@@ -98,17 +98,28 @@
    ![fork_proc.c](https://github.com/CorreianAngel/homework_2/blob/master/images/fork_proc_c.png)
 
 
-   Added lines 39-60 in sysproc.c
+   Added lines 39-60 in "sysproc.c"
     
     
     
    ![sysproc](https://github.com/CorreianAngel/homework_2/blob/master/images/sysproc_c.png)
 
 
-   Added lines 28-31 in usys.S
+   Added lines 28-31 in "usys.S"
    
    
    ![usys_S](https://github.com/CorreianAngel/homework_2/blob/master/images/usys_S.png)
+   
+   
+   
+   
+   
+   
+   Added lines 92-95 in "syscall.c"
+   
+   
+   
+   ![syscall_c](https://github.com/CorreianAngel/homework_2/blob/master/images/syscall_c.png)
 //Roman Rodriguez
 /*
   Contact info:
