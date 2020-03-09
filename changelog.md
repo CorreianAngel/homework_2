@@ -130,6 +130,12 @@
    
    
    ![test_ids](https://github.com/CorreianAngel/homework_2/blob/master/images/test_ids.png)
+   
+   
+   ***
+   stopped 3/9/20 1:46
+   ***
+   ![error](https://github.com/CorreianAngel/homework_2/blob/master/images/Screenshot%20from%202020-03-09%2013-45-29.png)
 //Roman Rodriguez
 /*
   Contact info:
