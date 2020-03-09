@@ -104,6 +104,11 @@
     
    ![sysproc](https://github.com/CorreianAngel/homework_2/blob/master/images/sysproc_c.png)
 
+
+   Added lines 28-31 in usys.S
+   
+   
+   ![usys_S](https://github.com/CorreianAngel/homework_2/blob/master/images/usys_S.png)
 //Roman Rodriguez
 /*
   Contact info:
