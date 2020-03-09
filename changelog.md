@@ -123,6 +123,13 @@
    
    
    ![syscall2](https://github.com/CorreianAngel/homework_2/blob/master/images/syscall2.png)
+   
+   
+   
+   Created "test_ids.c"
+   
+   
+   ![test_ids](https://github.com/CorreianAngel/homework_2/blob/master/images/test_ids.png)
 //Roman Rodriguez
 /*
   Contact info:
