@@ -6,6 +6,7 @@
 #include "x86.h"
 #include "proc.h"
 #include "spinlock.h"
+#include "date.h"
 
 #define NULL 0
 struct {
@@ -113,7 +114,7 @@ found:
   memset(p->context, 0, sizeof *p->context);
   p->context->eip = (uint)forkret;
 
-  uint ticks; //initialized before return so we can keep track of when it was created
+  //uint ticks; //initialized before return so we can keep track of when it was created
   return p;
 }
 
@@ -577,4 +578,13 @@ cps()
   release(&ptable.lock);
 
   return 22;
+}
+
+int date(){
+    struct rtcdate r;
+    cmostime(&r);
+    cprintf("%d/%d/%d %d:%d:%d\n", r.day, r.month, r.year, r.hour,  r.minute, r.second);
+
+
+    return 25;
 }
