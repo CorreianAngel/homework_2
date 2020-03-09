@@ -53,6 +53,13 @@
   Date:3-2-20
   File Source: Makefile
   Added Makefile with _date/ added in on line 182, and the file date.c on 252.
+  Date:3-2-20
+  File Sources: proc.c proc.h
+  Modified two files for #2, printing out PID- -STATE- -ELAPSE- -NAME- -SIZE- -PCs headers,PIDS, elapsed time,name,size, and process addreses. 
+  proc.c
+  line: 604-614
+  proc.h
+  line: 53
   
   
 */
