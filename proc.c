@@ -113,7 +113,6 @@ found:
   memset(p->context, 0, sizeof *p->context);
   p->context->eip = (uint)forkret;
 
-  uint ticks; //initialized before return so we can keep track of when it was created
   return p;
 }
 
@@ -529,7 +528,7 @@ procdump(void)
   char *state;
   uint pc[10];
 
-  cprintf("-PID- -STATE- -ELAPSE- -NAME- -SIZE- -PCs- \n");
+  cprintf("-PID- -STATE- -ELAPSE- -NAME- -SIZE- -PCs- \n"); //#2 Ctrl-p Homework2
 
   for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
 
@@ -541,7 +540,8 @@ procdump(void)
       state = states[p->state];
     else
       state = "???";
-    cprintf("%d %s %d %s", p->pid, state, ticks, /*size*/p->name);
+    uint elptime = ticks - p->start_ticks; //#2 Ctrl-p Homework2
+    cprintf("%d\t %s\t %d\t %s\t %d", p->pid, p->name, elptime, state, p->sz); //#2 Ctrl-p Homework2
     if(p->state == SLEEPING){
       getcallerpcs((uint*)p->context->ebp+2, pc);
       for(i=0; i<10 && pc[i] != 0; i++)
