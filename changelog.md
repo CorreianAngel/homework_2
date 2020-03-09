@@ -115,11 +115,14 @@
    
    
    
-   Added lines 92-95 in "syscall.c"
+   Added lines 92-95 and 124-127 in "syscall.c"
    
    
    
    ![syscall_c](https://github.com/CorreianAngel/homework_2/blob/master/images/syscall_c.png)
+   
+   
+   ![syscall2](https://github.com/CorreianAngel/homework_2/blob/master/images/syscall2.png)
 //Roman Rodriguez
 /*
   Contact info:
