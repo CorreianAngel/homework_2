@@ -53,6 +53,13 @@
   Date:3-2-20
   File Source: Makefile
   Added Makefile with _date/ added in on line 182, and the file date.c on 252.
+  Date:3-2-20
+  File Sources: proc.c proc.h
+  Modified two files for #2, printing out PID- -STATE- -ELAPSE- -NAME- -SIZE- -PCs headers,PIDS, elapsed time,name,size, and process addreses. 
+  proc.c
+  line: 604-614
+  proc.h
+  line: 53
   
   
 */
@@ -130,6 +137,12 @@
    
    
    ![test_ids](https://github.com/CorreianAngel/homework_2/blob/master/images/test_ids.png)
+   
+   
+   ***
+   stopped 3/9/20 1:46
+   ***
+   ![error](https://github.com/CorreianAngel/homework_2/blob/master/images/Screenshot%20from%202020-03-09%2013-45-29.png)
 //Roman Rodriguez
 /*
   Contact info:
