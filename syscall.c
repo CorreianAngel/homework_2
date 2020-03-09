@@ -105,8 +105,9 @@ extern int sys_write(void);
 extern int sys_uptime(void);
 extern int sys_chdir(void);
 extern int sys_cps(void);
-extern int sys_nps(void);
-extern int sys_chpr(void);
+extern int sys_date(void);
+//extern int sys_nps(void); // commenting these out because they're not defined
+//extern int sys_chpr(void);
 
 static int (*syscalls[])(void) = {
 [SYS_fork]    sys_fork,
@@ -131,8 +132,9 @@ static int (*syscalls[])(void) = {
 [SYS_mkdir]   sys_mkdir,
 [SYS_close]   sys_close,
 [SYS_cps]     sys_cps,
-[SYS_nps]     sys_nps,
-[SYS_chpr]    sys_chpr,
+[SYS_date]    sys_date,
+//[SYS_nps]     sys_nps, // commenting out because not used
+//[SYS_chpr]    sys_chpr,
 };
 
 void
