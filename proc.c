@@ -587,7 +587,7 @@ cps()
 int date(){
     struct rtcdate r;
     cmostime(&r);
-    cprintf("%d/%d/%d %d:%d:%d\n", r.month, r.day, r.year, r.hour,  r.minute, r.second);
+    cprintf("%d/%d/%d %d:%d:%d\n", r.day, r.month, r.year, r.hour,  r.minute, r.second);
 
 
     return 25;
