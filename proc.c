@@ -114,6 +114,7 @@ found:
   memset(p->context, 0, sizeof *p->context);
   p->context->eip = (uint)forkret;
 
+  p->start_ticks = ticks;
 
   return p;
 }
@@ -530,20 +531,22 @@ procdump(void)
   char *state;
   uint pc[10];
 
-  cprintf("-PID- -STATE- -ELAPSE- -NAME- -SIZE- -PCs- \n"); //#2 Ctrl-p Homework2
+  cprintf("-PID- -STATE- -ELAPSE- -NAME- -SIZE- -PCs- \n");
 
   for(p = ptable.proc; p < &ptable.proc[NPROC]; p++){
 
-//    double elapse = ticks / 1; //calculation of the elapse time
-    
     if(p->state == UNUSED)
       continue;
     if(p->state >= 0 && p->state < NELEM(states) && states[p->state])
       state = states[p->state];
     else
       state = "???";
-    uint elptime = ticks - p->start_ticks; //#2 Ctrl-p Homework2
-    cprintf("%d\t %s\t %d\t %s\t %d", p->pid, p->name, elptime, state, p->sz); //#2 Ctrl-p Homework2
+    
+    int elptime2 = (ticks - p->start_ticks)/1000;
+    int elp_time_int = (int)elptime2;
+    int elptime1 = ((ticks - p->start_ticks))-(elp_time_int*1000);
+    
+    cprintf("%d\t %s\t %d.%d\t %s\t %d\t", p->pid, p->name, elp_time_int, elptime1, state, p->sz);
     if(p->state == SLEEPING){
       getcallerpcs((uint*)p->context->ebp+2, pc);
       for(i=0; i<10 && pc[i] != 0; i++)
